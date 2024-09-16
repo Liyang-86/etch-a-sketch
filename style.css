@@ -1,0 +1,41 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 960px;
+    aspect-ratio: 1 / 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.sqr {
+    box-sizing: border-box;
+    background-color: grey;
+    margin: 0.05em;
+    aspect-ratio: 1 / 1;
+    border-radius: 20%;
+    text-align: center;
+    align-content: center;
+}
+
+.light {
+    background-color: orange;
+}
